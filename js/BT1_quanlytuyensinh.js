@@ -23,6 +23,6 @@ function quanLyDiem(){
     }else {
         ketQua = "Rớt"
     }
-    document.getElementById("txtKetQua").innerHTML= ketQua;
+    document.getElementById("txtKetQua").innerHTML= `${ketQua} với tổng điểm là: ${diemTong}`;
 }
 document.getElementById("btnKetQua").onclick = quanLyDiem;
